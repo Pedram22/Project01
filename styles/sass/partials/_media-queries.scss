@@ -1,0 +1,9 @@
+@media (max-width: 800px) {
+    .galleryFlex {
+        flex-direction: column;
+        align-items: center;
+    }
+    .galleryFlex li {
+        width: 75%;
+    }
+}

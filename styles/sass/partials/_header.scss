@@ -1,0 +1,67 @@
+header {
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.headerHome {
+        background-image: url(../planted-final-assets/home-image-1.jpg);
+        height: 90vh;
+}
+
+.headerBlog {
+    background-image: url(../planted-final-assets/blog-header-1.jpg);
+    height: 75vh;
+}
+
+.headerContact {
+    background-image: url(../planted-final-assets/contact-header-1.jpg);
+    height: 75vh;
+}
+
+nav {
+    ul {
+        list-style-type: none;
+        text-transform: uppercase;
+        margin: 0;
+        padding: 0;
+    }
+    
+li {
+    text-align: center;
+}
+
+a {
+    color: #FFFF;
+    text-decoration: none;
+    font-size: 0.75rem;
+}
+
+}
+
+.topBar {
+    display:flex;
+    background-color: #000000;
+}
+
+.logo {
+    color: #FFFF;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+    flex-grow: 0.25;
+}
+
+.welcome h1 {
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    span {
+        color:#FFFF;
+    }
+}

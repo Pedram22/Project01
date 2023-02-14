@@ -1,0 +1,68 @@
+.whatIs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sectionOne {
+    background-color: #FFFF;
+}
+
+.upcoming {
+    display: flex;
+}
+
+.discover {
+    display: flex;
+}
+
+.leftFlowers {
+    img {
+        box-shadow: 15px 15px #F8E71C;
+    }
+}
+
+.rightFlowers {
+    img {
+        box-shadow: -15px 15px #F8E71C; ;
+    }
+}
+
+.sectionTwo {
+    display: flex;
+}
+
+.imgContainer {
+    img {
+    width: 100%;
+    }
+}
+
+.founder {
+    display: flex;
+
+    img {
+        box-shadow: 15px 15px #F8E71C;
+    }
+}
+
+.gallery {
+    background-color: #FFFF;
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+}
+
+
+.galleryFlex {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    
+    li {
+        flex-basis: calc(100% / 3);
+    }
+
+}

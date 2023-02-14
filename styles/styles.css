@@ -232,6 +232,247 @@ html {
   background-color: #F0EFED;
 }
 
-body {
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+p {
   font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  color: #F8E71C;
+  font-size: 6rem;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, nav, button {
+  font-weight: 700;
+}
+
+button {
+  background-color: #0E902D;
+  color: white;
+  font-size: 0.7rem;
+  letter-spacing: 0.1rem;
+  border: none;
+  padding: 10px 15px;
+  text-align: center;
+}
+
+input {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: 2px solid #0E902D;
+}
+
+textarea {
+  width: 100%;
+  height: 200px;
+  padding: 20px 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 2px solid #0E902D;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+header {
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.headerHome {
+  background-image: url(../planted-final-assets/home-image-1.jpg);
+  height: 90vh;
+}
+
+.headerBlog {
+  background-image: url(../planted-final-assets/blog-header-1.jpg);
+  height: 75vh;
+}
+
+.headerContact {
+  background-image: url(../planted-final-assets/contact-header-1.jpg);
+  height: 75vh;
+}
+
+nav ul {
+  list-style-type: none;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  text-align: center;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.75rem;
+}
+
+.topBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #000000;
+}
+
+.logo {
+  color: white;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-flex: 0.25;
+      -ms-flex-positive: 0.25;
+          flex-grow: 0.25;
+}
+
+.welcome h1 {
+  font-weight: 400;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.welcome h1 span {
+  color: white;
+}
+
+.whatIs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sectionOne {
+  background-color: white;
+}
+
+.upcoming {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.discover {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.leftFlowers img {
+  -webkit-box-shadow: 15px 15px #F8E71C;
+          box-shadow: 15px 15px #F8E71C;
+}
+
+.rightFlowers img {
+  -webkit-box-shadow: -15px 15px #F8E71C;
+          box-shadow: -15px 15px #F8E71C;
+}
+
+.sectionTwo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.imgContainer img {
+  width: 100%;
+}
+
+.founder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.founder img {
+  -webkit-box-shadow: 15px 15px #F8E71C;
+          box-shadow: 15px 15px #F8E71C;
+}
+
+.gallery {
+  background-color: white;
+}
+.gallery ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.galleryFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 40px;
+}
+.galleryFlex li {
+  -ms-flex-preferred-size: 33.3333333333%;
+      flex-basis: 33.3333333333%;
+}
+
+footer {
+  background: #2C2C2C;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+  .galleryFlex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .galleryFlex li {
+    width: 75%;
+  }
 }
