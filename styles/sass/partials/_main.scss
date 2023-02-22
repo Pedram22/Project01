@@ -66,3 +66,51 @@ ul {
     }
 
 }
+
+.contactForm {
+    width: 50%;
+    padding: 5%;
+    background-color: #FFFF;
+    box-shadow: -15px 15px #F8E71C;
+    position: relative;
+    bottom: 150px;
+    right: 50px;
+}
+
+.blogFlexSection {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.sideText{
+    background-color: #FFFF;
+    margin-left: 75px;
+    position: relative;
+    left: 15px;
+    bottom: 5px;
+}
+
+.about {
+    h3 {
+        margin-top: 0;
+    }
+}
+
+.sideArticle {
+    padding-top: 150px;
+    padding-right: 100px;
+ 
+    img {
+    box-shadow: 15px 0px #FFFF;
+    
+}
+}
+
+.mission {
+    max-width: 60vw;
+    img {
+    box-shadow: -15px 15px #F8E71C;
+    max-width: 50vw;
+}
+}

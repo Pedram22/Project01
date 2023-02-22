@@ -243,8 +243,16 @@ p {
 
 h1 {
   color: #F8E71C;
-  font-size: 6rem;
+  font-size: 7rem;
   margin: 0 auto;
+}
+
+.contact {
+  padding-top: 15%;
+  padding-bottom: 2%;
+}
+.contact h1 {
+  font-size: 5rem;
 }
 
 h1, h2, h3, h4, nav, button {
@@ -261,11 +269,61 @@ button {
   text-align: center;
 }
 
+.flexContContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.address {
+  padding: 5%;
+}
+
+.socials {
+  list-style: none;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 50%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.socials li {
+  color: #0E902D;
+}
+
+.formTop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 input {
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
-  border: 2px solid #0E902D;
+  border: none;
+  border-bottom: 2px solid #0E902D;
+  width: 48%;
+  padding: 0;
+  padding: 2%;
 }
 
 textarea {
@@ -275,6 +333,8 @@ textarea {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border: 2px solid #0E902D;
+  resize: none;
+  margin: 5% 0;
 }
 
 form {
@@ -285,26 +345,41 @@ form {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  background-color: white;
+}
+
+button[type=submit] {
+  width: 100%;
 }
 
 header {
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
+  width: 100vw;
+}
+
+.wrappper {
+  position: relative;
+}
+
+.headerBox {
+  position: absolute;
+  right: 0;
+  bottom: 15%;
+  width: 40vw;
 }
 
 .headerHome {
   background-image: url(../planted-final-assets/home-image-1.jpg);
-  height: 90vh;
 }
 
 .headerBlog {
   background-image: url(../planted-final-assets/blog-header-1.jpg);
-  height: 75vh;
+  background-position: center;
 }
 
 .headerContact {
   background-image: url(../planted-final-assets/contact-header-1.jpg);
-  height: 75vh;
 }
 
 nav ul {
@@ -321,12 +396,19 @@ nav a {
   text-decoration: none;
   font-size: 0.75rem;
 }
+nav .currentPage a {
+  color: #F8E71C;
+}
 
 .topBar {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   background-color: #000000;
+}
+
+.topBar.home {
+  background-color: transparent;
 }
 
 .logo {
@@ -350,21 +432,22 @@ nav a {
           flex-grow: 0.25;
 }
 
+.welcome {
+  margin: 0 25%;
+  padding: 15vh 0;
+  position: relative;
+  z-index: 2;
+}
 .welcome h1 {
   font-weight: 400;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 .welcome h1 span {
   color: white;
+}
+
+.blog {
+  padding-top: 20%;
+  padding-bottom: 5%;
 }
 
 .whatIs {
@@ -447,6 +530,57 @@ nav a {
 .galleryFlex li {
   -ms-flex-preferred-size: 33.3333333333%;
       flex-basis: 33.3333333333%;
+}
+
+.contactForm {
+  width: 50%;
+  padding: 5%;
+  background-color: white;
+  -webkit-box-shadow: -15px 15px #F8E71C;
+          box-shadow: -15px 15px #F8E71C;
+  position: relative;
+  bottom: 150px;
+  right: 50px;
+}
+
+.blogFlexSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.sideText {
+  background-color: white;
+  margin-left: 75px;
+  position: relative;
+  left: 15px;
+  bottom: 5px;
+}
+
+.about h3 {
+  margin-top: 0;
+}
+
+.sideArticle {
+  padding-top: 150px;
+  padding-right: 100px;
+}
+.sideArticle img {
+  -webkit-box-shadow: 15px 0px white;
+          box-shadow: 15px 0px white;
+}
+
+.mission {
+  max-width: 60vw;
+}
+.mission img {
+  -webkit-box-shadow: -15px 15px #F8E71C;
+          box-shadow: -15px 15px #F8E71C;
+  max-width: 50vw;
 }
 
 footer {

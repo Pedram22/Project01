@@ -21,7 +21,7 @@
                 <ul class="nav">
                     <li><a href="./index.html">home</a></li>
                     <li><a href="./index.html#about">about</a></li>
-                    <li><a href="./blog.html">blog</a></li>
+                    <li class="currentPage"><a href="./blog.html">blog</a></li>
                     <li><a href="./contact.html">contact</a></li>
                 </ul>
             </nav>
@@ -30,32 +30,35 @@
             </div>
         </div>
     </header>
-
+    
     <section class="blogFlexSection">
+        <div class="sideArticle">
+       <img src="./planted-final-assets/side-bar-image.jpg" alt="old wooden window open on a stone wall">
+        <div class="sideText">
+        <article class="about" id="about">
+            <h3>About Planted</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, eaque. <em><strong>Find out more.</strong></em></p>
+        </article>
+    
+        <article>
+            <h3>Recent Posts</h3>
+            <ul>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Itaque voluptates deserunt.</li>
+                <li>Neque tempore, nemo alias.</li>
+                <li>Praesentium autem nihil et debitis.</li>
+            </ul>
+        </article>
+        </div>
+        </div>
+        
         <div class="blogFlex">
+        <section class="mission">
         <img src="./planted-final-assets/post-image.jpg" alt="rubbber plants against a white wall">
        <h2>Our mission at Planted</h2> 
        <p><em>Monday January 21th, 2019 by</em> <strong>Yousra</strong></p>
        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, doloremque a. Cupiditate optio a iste corrupti consequatur ad quidem dolor reprehenderit quasi nemo. Neque tempore, nemo alias provident, molestias at eos libero ea iure magnam sapiente suscipit nam! Sapiente quam accusantium commodi aut possimus quo cum quasi quae expedita natus officiis neque iure itaque, tempora doloremque placeat autem repellendus eos, modi exercitationem nostrum! Corporis soluta quam, tenetur quidem consectetur ad natus vitae magni at officia laborum fuga facilis, praesentium autem nihil et debitis consequatur? Itaque voluptates deserunt reprehenderit quo pariatur laboriosam in. Minus nostrum enim exercitationem corporis inventore, atque earum?</p>
     </section>
-
-    <article>
-        <h3>About Planted</h3>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, eaque. <em><strong>Find out more.</strong></em></p>
-    </article>
-
-    <article>
-        <h3>Recent Posts</h3>
-        <ul>
-            <li>Lorem ipsum dolor sit amet.</li>
-            <li>Itaque voluptates deserunt.</li>
-            <li>Neque tempore, nemo alias.</li>
-            <li>Praesentium autem nihil et debitis.</li>
-        </ul>
-    </article>
-    <figure>
-        <img src="./planted-final-assets/side-bar-image.jpg" alt="old wooden window open on a stone wall">
-    </figure>
 
     <section class="comments">
         <h3>Comments</h3>
@@ -87,10 +90,10 @@
 </section>
 
     <footer>
-        <div class="copyright"></div>
+        <div class="copyright">
         <p>Copyright © 2018 HackerYou</p>
         </div>
     </footer>
-    
+    <script src="script.js"></script>
 </body>
 </html>

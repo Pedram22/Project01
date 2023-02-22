@@ -15,10 +15,19 @@ p {
 
 h1 {
     color: #F8E71C;
-    font-size: 6rem;
+    font-size: 7rem;
     margin: 0 auto;
 }
 
+.contact {
+    
+    padding-top: 15%;
+    padding-bottom: 2%;;
+    
+    h1 {
+    font-size: 5rem;
+}
+}
 h1, h2, h3, h4, nav, button {
     font-weight:700;
 }
@@ -33,9 +42,44 @@ button {
     text-align: center;
 }
 
+.flexContContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+
+}
+
+.address {
+    padding: 5%;
+
+}
+
+.socials {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-between;
+    li {
+        color: #0E902D;
+}
+}
+
+.formTop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
 input {
-    appearance: none;
-    border: 2px solid #0E902D;
+    border: none;
+    border-bottom: 2px solid #0E902D;
+    width: 48%;
+    padding: 0;
+    padding: 2%;
 }
 
 textarea {
@@ -44,9 +88,17 @@ textarea {
   padding: 20px 20px;
   box-sizing: border-box;
   border: 2px solid #0E902D;
+  resize: none;
+  margin: 5% 0,
 }
 
 form {
     display: flex;
     flex-direction: column;
+    background-color: #FFFF;
 }
+
+button[type=submit] {
+    width: 100%;
+}
+
